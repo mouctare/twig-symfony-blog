@@ -34,6 +34,8 @@ class User implements UserInterface
      */
     private $username;
 
+    
+
     /**
      * @ORM\Column(type="string", length=255)
      * @Assert\NotBlank(message="Le nom de famille est obligatoire")
